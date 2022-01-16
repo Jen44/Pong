@@ -2,6 +2,7 @@ import java.awt.Color;
 import java.awt.Rectangle;
 
 public class Sprite {
+
 	private int xPosition;
 	private int yPosition; // can declare separately like this
 	private int xVelocity, yVelocity; // or on one line like this

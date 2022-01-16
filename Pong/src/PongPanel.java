@@ -23,7 +23,6 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
 		Timer timer = new Timer(TIMER_DELAY, this);
 
 		timer.start();
-
 	}
 
 	@Override
