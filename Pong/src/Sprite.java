@@ -8,6 +8,7 @@ public class Sprite {
 	private int xVelocity, yVelocity; // or on one line like this
 	private int width, height;
 	private int initialXPosition, initialYPosition;
+	private Color colour;
 
 	public int getxPosition() {
 		return xPosition;
@@ -57,8 +58,6 @@ public class Sprite {
 		this.height = height;
 	}
 
-	private Color colour;
-
 	public Color getColour() {
 		return colour;
 	}
@@ -85,9 +84,9 @@ public class Sprite {
 		}
 	}
 
-	public void setInitialPosition(int newInitialXPosition, int newInitialYPosition) {
-		initialXPosition = newInitialXPosition;
-		initialYPosition = newInitialYPosition;
+	public void setInitialPosition(int initialX, int initialY) {
+		initialXPosition = initialX;
+		initialYPosition = initialY;
 
 	}
 
